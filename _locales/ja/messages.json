@@ -1,0 +1,8 @@
+{
+   "description": {
+      "message": "Octopusのビデオダウンローダーは、必要な各Webサイトからすべてのビデオをダウンロードするための便利なChrome拡張機能です。"
+   },
+   "name": {
+      "message": "Video Downloader by Video Octopus 🐙"
+   }
+}

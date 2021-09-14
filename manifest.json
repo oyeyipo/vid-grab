@@ -1,0 +1,31 @@
+{
+   "background": {
+      "page": "html/background.html",
+      "persistent": true
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "images/icons/default_inactive_19x19.png",
+         "38": "images/icons/default_inactive_38x38.png"
+      },
+      "default_popup": "html/popup.html",
+      "default_title": "Video Octopus"
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "externally_connectable": {
+      "matches": [ "*://videooctopus.com/*download" ]
+   },
+   "icons": {
+      "128": "images/icons/128x128.png",
+      "16": "images/icons/16x16.png",
+      "256": "images/icons/256x256.png",
+      "48": "images/icons/48x48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArmLXvweKb4G6Cgx+uacRIe5ASycqGZNn6iC9MIw+ttKSZ8/WJEB7f9EGint3FdsWaEoIsWjL9cYCYhBeZbfGg8y6CXVyynXz35FCJrDoyH3Skz2ove4qQ2PS41erwbCsdLr/felGbE/n2M14IyJDbWelW+LV+ItKAK3Eqsvj29BFv3DHnuyKMNFRomvlod00EN5iwFGuQB7j4w35x4nskUkmkGh42UKKdymIGMFcBfOum5i6itwTLr3qBTdayzaW8ohmVg6/WeiJtnLbeIzZkUS8KM2tEM5CYu0JhRj7fIthBsQTirc4YIQnXt0jRKMuJRf54dTmp81jK4SpKuoKqQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "permissions": [ "tabs", "webRequestBlocking", "webRequest", "http://*/*", "https://*/*", "background", "webNavigation" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.7"
+}
